@@ -1,0 +1,76 @@
+E:\Climax\AAAAAAAA\MeetMe\MeetMe\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Climax\AAAAAAAA\MeetMe\MeetMe\obj\x86\Debug\MeetMe.Form1.resources
+E:\Climax\AAAAAAAA\MeetMe\MeetMe\obj\x86\Debug\MeetMe.Properties.Resources.resources
+E:\Climax\AAAAAAAA\MeetMe\MeetMe\obj\x86\Debug\ResGen.read.1.tlog
+E:\Climax\AAAAAAAA\MeetMe\MeetMe\obj\x86\Debug\ResGen.write.1.tlog
+E:\Climax\AAAAAAAA\MeetMe\MeetMe\bin\Debug\MeetMe.exe
+E:\Climax\AAAAAAAA\MeetMe\MeetMe\bin\Debug\MeetMe.pdb
+E:\Climax\AAAAAAAA\MeetMe\MeetMe\obj\x86\Debug\MeetMe.exe
+E:\Climax\AAAAAAAA\MeetMe\MeetMe\obj\x86\Debug\MeetMe.pdb
+E:\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.exe
+E:\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.pdb
+E:\MyMail\MeetMe\MeetMe\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmLogin.resources
+E:\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.Properties.Resources.resources
+E:\MyMail\MeetMe\MeetMe\obj\x86\Debug\ResGen.read.1.tlog
+E:\MyMail\MeetMe\MeetMe\obj\x86\Debug\ResGen.write.1.tlog
+E:\MyMail\MeetMe\MeetMe\bin\Debug\MeetMe.exe
+E:\MyMail\MeetMe\MeetMe\bin\Debug\MeetMe.pdb
+C:\Users\MONNGUYEN\Desktop\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.exe
+C:\Users\MONNGUYEN\Desktop\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.pdb
+C:\Users\MONNGUYEN\Desktop\MyMail\MeetMe\MeetMe\bin\Debug\MeetMe.exe
+C:\Users\MONNGUYEN\Desktop\MyMail\MeetMe\MeetMe\bin\Debug\MeetMe.pdb
+C:\Users\MONNGUYEN\Desktop\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmLogin.resources
+C:\Users\MONNGUYEN\Desktop\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.Properties.Resources.resources
+C:\Users\MONNGUYEN\Desktop\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.csproj.GenerateResource.Cache
+C:\Users\MONNGUYEN\Desktop\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.Main.resources
+C:\Users\MONNGUYEN\Desktop\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmRequest.resources
+C:\Users\MONNGUYEN\Desktop\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmChat.resources
+C:\Users\MONNGUYEN\Desktop\MeetMe\MeetMe\obj\x86\Debug\MeetMe.exe
+C:\Users\MONNGUYEN\Desktop\MeetMe\MeetMe\obj\x86\Debug\MeetMe.pdb
+C:\Users\MONNGUYEN\Desktop\MeetMe\MeetMe\bin\Debug\MeetMe.exe
+C:\Users\MONNGUYEN\Desktop\MeetMe\MeetMe\bin\Debug\MeetMe.pdb
+C:\Users\MONNGUYEN\Desktop\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmChat.resources
+C:\Users\MONNGUYEN\Desktop\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmLogin.resources
+C:\Users\MONNGUYEN\Desktop\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmRequest.resources
+C:\Users\MONNGUYEN\Desktop\MeetMe\MeetMe\obj\x86\Debug\MeetMe.Main.resources
+C:\Users\MONNGUYEN\Desktop\MeetMe\MeetMe\obj\x86\Debug\MeetMe.Properties.Resources.resources
+C:\Users\MONNGUYEN\Desktop\MeetMe\MeetMe\obj\x86\Debug\MeetMe.csproj.GenerateResource.Cache
+C:\Users\MONNGUYEN\Desktop\MeetMe\MeetMe\bin\Debug\MeetMe.exe.config
+C:\Users\MONNGUYEN\Desktop\MeetMe\MeetMe\obj\x86\Debug\MeetMe.csprojResolveAssemblyReference.cache
+E:\MyMail\MeetMe\MeetMe\bin\Debug\MeetMe.exe.config
+E:\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmChat.resources
+E:\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmRequest.resources
+E:\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.Main.resources
+E:\MyMail\MeetMe\MeetMe\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\MyMail\MeetMe\MeetMe\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Application\MyMail\MeetMe\MeetMe\bin\Debug\MeetMe.exe.config
+D:\Application\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.exe
+D:\Application\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.pdb
+D:\Application\MyMail\MeetMe\MeetMe\bin\Debug\MeetMe.exe
+D:\Application\MyMail\MeetMe\MeetMe\bin\Debug\MeetMe.pdb
+D:\Application\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.csprojResolveAssemblyReference.cache
+D:\Application\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmLogin.resources
+D:\Application\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.Main.resources
+D:\Application\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.Properties.Resources.resources
+D:\Application\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.csproj.GenerateResource.Cache
+D:\Application\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmAutoChat.resources
+D:\Application\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmChat.resources
+D:\Application\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmAutoRequest.resources
+D:\Application\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmRequest.resources
+D:\Application\MyMail\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmSetting.resources
+D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\bin\Debug\MeetMe.exe.config
+D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.exe
+D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.pdb
+D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\bin\Debug\MeetMe.exe
+D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\bin\Debug\MeetMe.pdb
+D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.csprojResolveAssemblyReference.cache
+D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmAutoChat.resources
+D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmChat.resources
+D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmLogin.resources
+D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmAutoRequest.resources
+D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmRequest.resources
+D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.frmSetting.resources
+D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.Main.resources
+D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.Properties.Resources.resources
+D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.csproj.GenerateResource.Cache
