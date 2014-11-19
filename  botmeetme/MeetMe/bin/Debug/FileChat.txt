@@ -1,0 +1,5 @@
+Hi:Hello
+Hello:Hi
+How are you?:I'm fine, thank you.
+Test:return test
+return test:Hello
