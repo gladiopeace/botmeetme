@@ -139,6 +139,17 @@ namespace MeetMe
             catch { }
         }
 
+
+        private void btnContact_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmContact frm = new frmContact();
+                frm.ShowDialog();
+            }
+            catch { }
+        }
+
         private void btnRequest_Click(object sender, EventArgs e)
         {
             try
