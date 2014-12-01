@@ -74,3 +74,18 @@ D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.f
 D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.Main.resources
 D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.Properties.Resources.resources
 D:\HTTP Request Meetme.Com\MeetMe_04-25.011\MeetMe\MeetMe\obj\x86\Debug\MeetMe.csproj.GenerateResource.Cache
+H:\Projects\MegaTech.Corp\SVN\interappcontrol\MeetMe\bin\Debug\MeetMe.exe
+H:\Projects\MegaTech.Corp\SVN\interappcontrol\MeetMe\bin\Debug\MeetMe.exe.config
+H:\Projects\MegaTech.Corp\SVN\interappcontrol\MeetMe\obj\x86\Debug\MeetMe.frmAutoChat.resources
+H:\Projects\MegaTech.Corp\SVN\interappcontrol\MeetMe\obj\x86\Debug\MeetMe.frmChat.resources
+H:\Projects\MegaTech.Corp\SVN\interappcontrol\MeetMe\obj\x86\Debug\MeetMe.frmLogin.resources
+H:\Projects\MegaTech.Corp\SVN\interappcontrol\MeetMe\obj\x86\Debug\MeetMe.frmAutoRequest.resources
+H:\Projects\MegaTech.Corp\SVN\interappcontrol\MeetMe\obj\x86\Debug\MeetMe.frmRequest.resources
+H:\Projects\MegaTech.Corp\SVN\interappcontrol\MeetMe\obj\x86\Debug\MeetMe.frmSetting.resources
+H:\Projects\MegaTech.Corp\SVN\interappcontrol\MeetMe\obj\x86\Debug\MeetMe.Main.resources
+H:\Projects\MegaTech.Corp\SVN\interappcontrol\MeetMe\obj\x86\Debug\MeetMe.Properties.Resources.resources
+H:\Projects\MegaTech.Corp\SVN\interappcontrol\MeetMe\obj\x86\Debug\MeetMe.csproj.GenerateResource.Cache
+H:\Projects\MegaTech.Corp\SVN\interappcontrol\MeetMe\obj\x86\Debug\MeetMe.exe
+H:\Projects\MegaTech.Corp\SVN\interappcontrol\MeetMe\obj\x86\Debug\MeetMe.pdb
+H:\Projects\MegaTech.Corp\SVN\interappcontrol\MeetMe\bin\Debug\MeetMe.pdb
+H:\Projects\MegaTech.Corp\SVN\interappcontrol\MeetMe\obj\x86\Debug\MeetMe.frmContact.resources

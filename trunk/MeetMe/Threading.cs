@@ -97,11 +97,11 @@ namespace MeetMe
                 //else
                 //    return ReCheckLogin(account);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 account.Login = false;
                 Main.counterLogin.Count++;
-                grid.Rows[Current].Cells["grdColStatus"].Value = "";
+                grid.Rows[Current].Cells["grdColStatus"].Value = "Error";
                 return false;
             }
         }

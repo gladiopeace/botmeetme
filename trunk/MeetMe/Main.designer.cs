@@ -29,14 +29,15 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
             this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonBar2 = new DevComponents.DotNetBar.RibbonBar();
             this.ribbonBar3 = new DevComponents.DotNetBar.RibbonBar();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonBarContact = new DevComponents.DotNetBar.RibbonBar();
             this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
             this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonTabItem2 = new DevComponents.DotNetBar.RibbonTabItem();
@@ -64,11 +65,12 @@
             this.smiChat = new System.Windows.Forms.ToolStripMenuItem();
             this.expandablePanel1 = new DevComponents.DotNetBar.ExpandablePanel();
             this.TimerAddFriend = new System.Windows.Forms.Timer(this.components);
+            this.btnContact = new DevComponents.DotNetBar.ButtonItem();
+            this.btnDangNhap = new DevComponents.DotNetBar.ButtonItem();
+            this.btnThoat = new DevComponents.DotNetBar.ButtonItem();
             this.btnSetting = new DevComponents.DotNetBar.ButtonItem();
             this.btnRequest = new DevComponents.DotNetBar.ButtonItem();
             this.btnChat = new DevComponents.DotNetBar.ButtonItem();
-            this.btnDangNhap = new DevComponents.DotNetBar.ButtonItem();
-            this.btnThoat = new DevComponents.DotNetBar.ButtonItem();
             this.btnDanhSachHangThanhLy = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel2.SuspendLayout();
@@ -85,8 +87,8 @@
             // 
             this.ribbonControl1.CanCustomize = false;
             this.ribbonControl1.CaptionVisible = true;
-            this.ribbonControl1.Controls.Add(this.ribbonPanel2);
             this.ribbonControl1.Controls.Add(this.ribbonPanel1);
+            this.ribbonControl1.Controls.Add(this.ribbonPanel2);
             this.ribbonControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.ribbonControl1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.ribbonTabItem1,
@@ -110,11 +112,12 @@
             this.ribbonPanel2.Controls.Add(this.ribbonBar2);
             this.ribbonPanel2.Controls.Add(this.ribbonBar3);
             this.ribbonPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel2.Location = new System.Drawing.Point(0, 55);
+            this.ribbonPanel2.Location = new System.Drawing.Point(0, 0);
             this.ribbonPanel2.Name = "ribbonPanel2";
             this.ribbonPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel2.Size = new System.Drawing.Size(999, 97);
+            this.ribbonPanel2.Size = new System.Drawing.Size(999, 152);
             this.ribbonPanel2.TabIndex = 2;
+            this.ribbonPanel2.Visible = false;
             // 
             // ribbonBar2
             // 
@@ -124,7 +127,7 @@
             this.btnSetting});
             this.ribbonBar2.Location = new System.Drawing.Point(109, 0);
             this.ribbonBar2.Name = "ribbonBar2";
-            this.ribbonBar2.Size = new System.Drawing.Size(52, 94);
+            this.ribbonBar2.Size = new System.Drawing.Size(52, 149);
             this.ribbonBar2.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.ribbonBar2.TabIndex = 1;
             this.ribbonBar2.Text = "Setting";
@@ -138,7 +141,7 @@
             this.btnChat});
             this.ribbonBar3.Location = new System.Drawing.Point(3, 0);
             this.ribbonBar3.Name = "ribbonBar3";
-            this.ribbonBar3.Size = new System.Drawing.Size(106, 94);
+            this.ribbonBar3.Size = new System.Drawing.Size(106, 149);
             this.ribbonBar3.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.ribbonBar3.TabIndex = 0;
             this.ribbonBar3.Text = "Functions";
@@ -146,14 +149,27 @@
             // ribbonPanel1
             // 
             this.ribbonPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.ribbonPanel1.Controls.Add(this.ribbonBarContact);
             this.ribbonPanel1.Controls.Add(this.ribbonBar1);
             this.ribbonPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel1.Location = new System.Drawing.Point(0, 0);
+            this.ribbonPanel1.Location = new System.Drawing.Point(0, 55);
             this.ribbonPanel1.Name = "ribbonPanel1";
             this.ribbonPanel1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel1.Size = new System.Drawing.Size(999, 152);
+            this.ribbonPanel1.Size = new System.Drawing.Size(999, 97);
             this.ribbonPanel1.TabIndex = 1;
-            this.ribbonPanel1.Visible = false;
+            // 
+            // ribbonBarContact
+            // 
+            this.ribbonBarContact.AutoOverflowEnabled = true;
+            this.ribbonBarContact.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBarContact.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnContact});
+            this.ribbonBarContact.Location = new System.Drawing.Point(93, 0);
+            this.ribbonBarContact.Name = "ribbonBarContact";
+            this.ribbonBarContact.Size = new System.Drawing.Size(90, 94);
+            this.ribbonBarContact.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.ribbonBarContact.TabIndex = 0;
+            this.ribbonBarContact.Text = "Contact";
             // 
             // ribbonBar1
             // 
@@ -164,13 +180,14 @@
             this.btnThoat});
             this.ribbonBar1.Location = new System.Drawing.Point(3, 0);
             this.ribbonBar1.Name = "ribbonBar1";
-            this.ribbonBar1.Size = new System.Drawing.Size(90, 149);
+            this.ribbonBar1.Size = new System.Drawing.Size(90, 94);
             this.ribbonBar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.ribbonBar1.TabIndex = 0;
             this.ribbonBar1.Text = "Systems";
             // 
             // ribbonTabItem1
             // 
+            this.ribbonTabItem1.Checked = true;
             this.ribbonTabItem1.ImagePaddingHorizontal = 8;
             this.ribbonTabItem1.Name = "ribbonTabItem1";
             this.ribbonTabItem1.Panel = this.ribbonPanel1;
@@ -178,7 +195,6 @@
             // 
             // ribbonTabItem2
             // 
-            this.ribbonTabItem2.Checked = true;
             this.ribbonTabItem2.ImagePaddingHorizontal = 8;
             this.ribbonTabItem2.Name = "ribbonTabItem2";
             this.ribbonTabItem2.Panel = this.ribbonPanel2;
@@ -200,7 +216,7 @@
             // 
             this.buttonItem1.ImagePaddingHorizontal = 8;
             this.buttonItem1.Name = "buttonItem1";
-            this.buttonItem1.Text = "MeetMe.Com";
+            this.buttonItem1.Text = "MeetMe Bot VN";
             // 
             // groupPanel1
             // 
@@ -265,14 +281,14 @@
             // 
             // dgvNick
             // 
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvNick.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvNick.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvNick.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvNick.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.grdColIndex,
@@ -328,8 +344,8 @@
             // 
             // grdColStatus
             // 
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.grdColStatus.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.grdColStatus.DefaultCellStyle = dataGridViewCellStyle2;
             this.grdColStatus.HeaderText = "Status";
             this.grdColStatus.Name = "grdColStatus";
             // 
@@ -438,14 +454,14 @@
             // smiRequest
             // 
             this.smiRequest.Name = "smiRequest";
-            this.smiRequest.Size = new System.Drawing.Size(150, 22);
+            this.smiRequest.Size = new System.Drawing.Size(121, 22);
             this.smiRequest.Text = "Requests";
             this.smiRequest.Click += new System.EventHandler(this.smiRequest_Click);
             // 
             // smiChat
             // 
             this.smiChat.Name = "smiChat";
-            this.smiChat.Size = new System.Drawing.Size(150, 22);
+            this.smiChat.Size = new System.Drawing.Size(121, 22);
             this.smiChat.Text = "Chat";
             this.smiChat.Click += new System.EventHandler(this.btnChat_Click);
             // 
@@ -480,6 +496,36 @@
             // 
             this.TimerAddFriend.Tick += new System.EventHandler(this.TimerAddFriend_Tick);
             // 
+            // btnContact
+            // 
+            this.btnContact.Image = ((System.Drawing.Image)(resources.GetObject("btnContact.Image")));
+            this.btnContact.ImagePaddingHorizontal = 8;
+            this.btnContact.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btnContact.Name = "btnContact";
+            this.btnContact.SubItemsExpandWidth = 14;
+            this.btnContact.Text = "Contact";
+            this.btnContact.Click += new System.EventHandler(this.btnContact_Click);
+            // 
+            // btnDangNhap
+            // 
+            this.btnDangNhap.Image = ((System.Drawing.Image)(resources.GetObject("btnDangNhap.Image")));
+            this.btnDangNhap.ImagePaddingHorizontal = 8;
+            this.btnDangNhap.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btnDangNhap.Name = "btnDangNhap";
+            this.btnDangNhap.SubItemsExpandWidth = 14;
+            this.btnDangNhap.Text = "Login";
+            this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
+            // 
+            // btnThoat
+            // 
+            this.btnThoat.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.Image")));
+            this.btnThoat.ImagePaddingHorizontal = 8;
+            this.btnThoat.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.SubItemsExpandWidth = 14;
+            this.btnThoat.Text = "Exit";
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            // 
             // btnSetting
             // 
             this.btnSetting.Image = global::MeetMe.Properties.Resources.icon_03_17;
@@ -509,26 +555,6 @@
             this.btnChat.SubItemsExpandWidth = 14;
             this.btnChat.Text = "Chat";
             this.btnChat.Click += new System.EventHandler(this.btnChat_Click);
-            // 
-            // btnDangNhap
-            // 
-            this.btnDangNhap.Image = ((System.Drawing.Image)(resources.GetObject("btnDangNhap.Image")));
-            this.btnDangNhap.ImagePaddingHorizontal = 8;
-            this.btnDangNhap.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.SubItemsExpandWidth = 14;
-            this.btnDangNhap.Text = "Login";
-            this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
-            // 
-            // btnThoat
-            // 
-            this.btnThoat.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.Image")));
-            this.btnThoat.ImagePaddingHorizontal = 8;
-            this.btnThoat.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.btnThoat.Name = "btnThoat";
-            this.btnThoat.SubItemsExpandWidth = 14;
-            this.btnThoat.Text = "Exit";
-            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // btnDanhSachHangThanhLy
             // 
@@ -572,12 +598,14 @@
         private DevComponents.DotNetBar.RibbonControl ribbonControl1;
         private DevComponents.DotNetBar.RibbonPanel ribbonPanel1;
         private DevComponents.DotNetBar.RibbonBar ribbonBar1;
+        private DevComponents.DotNetBar.RibbonBar ribbonBarContact;
         private DevComponents.DotNetBar.RibbonPanel ribbonPanel2;
         private DevComponents.DotNetBar.RibbonTabItem ribbonTabItem1;
         private DevComponents.DotNetBar.RibbonTabItem ribbonTabItem2;
         private DevComponents.DotNetBar.Office2007StartButton office2007StartButton1;
         private DevComponents.DotNetBar.ButtonItem buttonItem1;
         private DevComponents.DotNetBar.ButtonItem btnDangNhap;
+        private DevComponents.DotNetBar.ButtonItem btnContact;
         private DevComponents.DotNetBar.ButtonItem btnThoat;
         private DevComponents.DotNetBar.RibbonBar ribbonBar3;
         private DevComponents.DotNetBar.ButtonItem btnRequest;
